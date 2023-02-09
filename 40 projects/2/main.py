@@ -17,4 +17,5 @@ while turn == False:
     else: 
         print("win cause computer chose " + varstr[computer])
         turn = True
-print("URDROPS IS THE BEST!")
+print("URDROPS IS THE BEST!") 
+print("...")
