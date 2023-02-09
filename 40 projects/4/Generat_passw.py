@@ -1,9 +1,6 @@
 import random as r
 import string as s
-punctuation = s.punctuation
-digits = s.digits
-letters_low = s.ascii_lowercase
-letter_up = s.ascii_uppercase
+punctuation, digits, letters_low, letter_up = s.punctuation, s.digits, s.ascii_lowercase, s.ascii_uppercase
 no = 'no'
 while no == 'no':
     user = int(input('длина пароля: \n'))
