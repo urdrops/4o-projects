@@ -13,12 +13,9 @@ while low <= high:
     else:
         print('окей, нет так нет') 
         break
-    if  answer == correct :
+    if  answer.lower() == correct or answer.lower() == 'yes':
         print('я просто гений ;)')
-        break
-    elif answer == high_answer :
+    if answer.lower() == high_answer :
         low = middle + 1
-    elif answer == low_answer:
+    elif answer.lower() == low_answer:
         high = middle - 1
-
-print('врешь как дышишь!')
