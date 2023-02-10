@@ -2,10 +2,10 @@ import random as r
 import string as s
 data = []
 #collect data
-for i in range(100):
+for i in range(10000):
     data.append(i + 1)
 high_answer, low_answer, correct, low, high, = "больше","меньше","да",0,len(data)
-start = input('загадайте любое число от 1 до 100 и я попробую угадать O(log) время \n Загадали ? да/нет ')
+start = input('загадайте любое число от 1 до 10000 и я попробую угадать O(log) время \n Загадали ? да/нет ')
 while low <= high:
     middle = (low+high) // 2
     if start == correct :
@@ -21,4 +21,4 @@ while low <= high:
     elif answer == low_answer:
         high = middle - 1
 
-
+print('врешь как дышишь!')
