@@ -6,5 +6,7 @@ class Teacher():
         self.name = name
     def Hello(name,age):
         print(f"today we gonna teach and i am {name} and my age is {age}")
-
+    def Teach(degree):
+        print(f"i am ready to teach you with {degree} degree")
+Teacher = Teacher()
         
