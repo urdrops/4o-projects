@@ -3,7 +3,7 @@ from tkinter import ttk
 
 root = Tk()
 style = ttk.Style()
-root.title("Calculator")
+root.title("Calculator Hello Kitty")
 root.geometry("400x500")
 root.resizable(False,False)
 root["bg"]="pink" 
